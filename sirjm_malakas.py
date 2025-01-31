@@ -24,9 +24,10 @@ def main():
             print("Please schedule a consultation.")
 
 def addNumbers(a, b):
+
     if type(a) == int and type (b) == int:
-        return a + b;
+        return a + b
     else:
-        return -1;
+        return
     
 main()
